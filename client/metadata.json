@@ -1,0 +1,6 @@
+{
+  "name": "PGNest - PG Management System",
+  "description": "A modern, premium PG (Paying Guest) Management System with separate portals for Guest Users, PG Owners, and Admins.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
