@@ -17,7 +17,7 @@ export const authMiddleware = (req: Request, res: Response, next: NextFunction) 
     req.user = decoded; // Attach standard payload context to request
     next();
 
-    }catch (error) {
+    }catch (error:any ) {
         if (error.name === 'TokenExpiredError') {
           return res.status(401).json({ message: 'Access token expired', code: 'TOKEN_EXPIRED' });
         }
