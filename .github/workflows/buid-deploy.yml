@@ -12,3 +12,6 @@ jobs:
 
       - name: Set up Node.js
         run: ls
+      
+      - name: Install Dependencies
+        run:  echo "Installing dependencies..." && npm install
